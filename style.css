@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgitem {
+    width: 200px;
+    height: 80%;
+    margin: auto;
+
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.Imge_Hiden{
+    height: 12%;
+    display:  flex;
+}
+
+.Img_Hidden{
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.368);
+    display: flex;
+    font-size: 30px;
+    
+    justify-content:center;
+    
+    border-radius: 10px;
+    width: 80px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: -5px -5px 30px 5px rgb(255, 115, 0), 5px 5px 30px 5px rgb(0, 42, 255);
+
+}
+
+.imgitem:hover {
+    opacity: 0.8 !important;
+    box-shadow: -2px -2px 15px 2px rgb(255, 89, 0), 2px 2px 15px 2px rgb(255, 13, 0);
+    transition: all;
+    transition-duration: 0.5s;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.Sec-1 {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Img_List {
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: auto;
+    flex-basis: 500px;
+
+
+}
+
+.Img_Photo {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
